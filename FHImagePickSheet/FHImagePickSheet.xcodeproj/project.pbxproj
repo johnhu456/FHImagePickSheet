@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0E4CD811D9EA95D00261BF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E4CD801D9EA95D00261BF9 /* main.m */; };
+		E0E4CD841D9EA95D00261BF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E4CD831D9EA95D00261BF9 /* AppDelegate.m */; };
+		E0E4CD871D9EA95D00261BF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E4CD861D9EA95D00261BF9 /* ViewController.m */; };
+		E0E4CD8A1D9EA95D00261BF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E4CD881D9EA95D00261BF9 /* Main.storyboard */; };
+		E0E4CD8C1D9EA95D00261BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E4CD8B1D9EA95D00261BF9 /* Assets.xcassets */; };
+		E0E4CD8F1D9EA95D00261BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E4CD8D1D9EA95D00261BF9 /* LaunchScreen.storyboard */; };
+		E0E4CD9A1D9EA95D00261BF9 /* FHImagePickSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E4CD991D9EA95D00261BF9 /* FHImagePickSheetTests.m */; };
+		E0E4CDA51D9EA95D00261BF9 /* FHImagePickSheetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E4CDA41D9EA95D00261BF9 /* FHImagePickSheetUITests.m */; };
+		E0E4CDCC1D9EA9B900261BF9 /* FHImagePickSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E4CDB41D9EA9B900261BF9 /* FHImagePickSheetController.m */; };
+		E0E4CDCD1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E4CDB71D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected.png */; };
+		E0E4CDCE1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E4CDB81D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected@2x.png */; };
+		E0E4CDCF1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E4CDB91D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected@3x.png */; };
+		E0E4CDD01D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E4CDBA1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark.png */; };
+		E0E4CDD11D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E4CDBB1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark@2x.png */; };
+		E0E4CDD21D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0E4CDBC1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark@3x.png */; };
+		E0E4CDD31D9EA9B900261BF9 /* FHImagePickSheetFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E4CDBF1D9EA9B900261BF9 /* FHImagePickSheetFlowLayout.m */; };
+		E0E4CDD41D9EA9B900261BF9 /* FHPickAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E4CDC11D9EA9B900261BF9 /* FHPickAnimation.m */; };
+		E0E4CDD51D9EA9B900261BF9 /* FHImagePickCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E4CDC41D9EA9B900261BF9 /* FHImagePickCollectionViewCell.m */; };
+		E0E4CDD61D9EA9B900261BF9 /* FHImagePickCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E4CDC51D9EA9B900261BF9 /* FHImagePickCollectionViewCell.xib */; };
+		E0E4CDD71D9EA9B900261BF9 /* FHImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E4CDC71D9EA9B900261BF9 /* FHImageTableViewCell.m */; };
+		E0E4CDD81D9EA9B900261BF9 /* FHPickActionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E4CDC91D9EA9B900261BF9 /* FHPickActionCell.m */; };
+		E0E4CDD91D9EA9B900261BF9 /* FHPreviewMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E4CDCB1D9EA9B900261BF9 /* FHPreviewMarkView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0E4CD961D9EA95D00261BF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E4CD741D9EA95D00261BF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E4CD7B1D9EA95D00261BF9;
+			remoteInfo = FHImagePickSheet;
+		};
+		E0E4CDA11D9EA95D00261BF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0E4CD741D9EA95D00261BF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0E4CD7B1D9EA95D00261BF9;
+			remoteInfo = FHImagePickSheet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0E4CD7C1D9EA95D00261BF9 /* FHImagePickSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHImagePickSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E4CD801D9EA95D00261BF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0E4CD821D9EA95D00261BF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0E4CD831D9EA95D00261BF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0E4CD851D9EA95D00261BF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0E4CD861D9EA95D00261BF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0E4CD891D9EA95D00261BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0E4CD8B1D9EA95D00261BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0E4CD8E1D9EA95D00261BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0E4CD901D9EA95D00261BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E4CD951D9EA95D00261BF9 /* FHImagePickSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FHImagePickSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E4CD991D9EA95D00261BF9 /* FHImagePickSheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHImagePickSheetTests.m; sourceTree = "<group>"; };
+		E0E4CD9B1D9EA95D00261BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E4CDA01D9EA95D00261BF9 /* FHImagePickSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FHImagePickSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E4CDA41D9EA95D00261BF9 /* FHImagePickSheetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHImagePickSheetUITests.m; sourceTree = "<group>"; };
+		E0E4CDA61D9EA95D00261BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E4CDB31D9EA9B900261BF9 /* FHImagePickSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHImagePickSheetController.h; sourceTree = "<group>"; };
+		E0E4CDB41D9EA9B900261BF9 /* FHImagePickSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHImagePickSheetController.m; sourceTree = "<group>"; };
+		E0E4CDB71D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PreviewSupplementaryView-Checkmark-Selected.png"; sourceTree = "<group>"; };
+		E0E4CDB81D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PreviewSupplementaryView-Checkmark-Selected@2x.png"; sourceTree = "<group>"; };
+		E0E4CDB91D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PreviewSupplementaryView-Checkmark-Selected@3x.png"; sourceTree = "<group>"; };
+		E0E4CDBA1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PreviewSupplementaryView-Checkmark.png"; sourceTree = "<group>"; };
+		E0E4CDBB1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PreviewSupplementaryView-Checkmark@2x.png"; sourceTree = "<group>"; };
+		E0E4CDBC1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PreviewSupplementaryView-Checkmark@3x.png"; sourceTree = "<group>"; };
+		E0E4CDBE1D9EA9B900261BF9 /* FHImagePickSheetFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHImagePickSheetFlowLayout.h; sourceTree = "<group>"; };
+		E0E4CDBF1D9EA9B900261BF9 /* FHImagePickSheetFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHImagePickSheetFlowLayout.m; sourceTree = "<group>"; };
+		E0E4CDC01D9EA9B900261BF9 /* FHPickAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHPickAnimation.h; sourceTree = "<group>"; };
+		E0E4CDC11D9EA9B900261BF9 /* FHPickAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHPickAnimation.m; sourceTree = "<group>"; };
+		E0E4CDC31D9EA9B900261BF9 /* FHImagePickCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHImagePickCollectionViewCell.h; sourceTree = "<group>"; };
+		E0E4CDC41D9EA9B900261BF9 /* FHImagePickCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHImagePickCollectionViewCell.m; sourceTree = "<group>"; };
+		E0E4CDC51D9EA9B900261BF9 /* FHImagePickCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHImagePickCollectionViewCell.xib; sourceTree = "<group>"; };
+		E0E4CDC61D9EA9B900261BF9 /* FHImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHImageTableViewCell.h; sourceTree = "<group>"; };
+		E0E4CDC71D9EA9B900261BF9 /* FHImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHImageTableViewCell.m; sourceTree = "<group>"; };
+		E0E4CDC81D9EA9B900261BF9 /* FHPickActionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHPickActionCell.h; sourceTree = "<group>"; };
+		E0E4CDC91D9EA9B900261BF9 /* FHPickActionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHPickActionCell.m; sourceTree = "<group>"; };
+		E0E4CDCA1D9EA9B900261BF9 /* FHPreviewMarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHPreviewMarkView.h; sourceTree = "<group>"; };
+		E0E4CDCB1D9EA9B900261BF9 /* FHPreviewMarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHPreviewMarkView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0E4CD791D9EA95D00261BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E4CD921D9EA95D00261BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E4CD9D1D9EA95D00261BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0E4CD731D9EA95D00261BF9 = {
+			isa = PBXGroup;
+			children = (
+				E0E4CD7E1D9EA95D00261BF9 /* FHImagePickSheet */,
+				E0E4CD981D9EA95D00261BF9 /* FHImagePickSheetTests */,
+				E0E4CDA31D9EA95D00261BF9 /* FHImagePickSheetUITests */,
+				E0E4CD7D1D9EA95D00261BF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E4CD7D1D9EA95D00261BF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4CD7C1D9EA95D00261BF9 /* FHImagePickSheet.app */,
+				E0E4CD951D9EA95D00261BF9 /* FHImagePickSheetTests.xctest */,
+				E0E4CDA01D9EA95D00261BF9 /* FHImagePickSheetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0E4CD7E1D9EA95D00261BF9 /* FHImagePickSheet */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4CD821D9EA95D00261BF9 /* AppDelegate.h */,
+				E0E4CD831D9EA95D00261BF9 /* AppDelegate.m */,
+				E0E4CD851D9EA95D00261BF9 /* ViewController.h */,
+				E0E4CD861D9EA95D00261BF9 /* ViewController.m */,
+				E0E4CDB21D9EA9B800261BF9 /* FHImagePickSheet */,
+				E0E4CD881D9EA95D00261BF9 /* Main.storyboard */,
+				E0E4CD8B1D9EA95D00261BF9 /* Assets.xcassets */,
+				E0E4CD8D1D9EA95D00261BF9 /* LaunchScreen.storyboard */,
+				E0E4CD901D9EA95D00261BF9 /* Info.plist */,
+				E0E4CD7F1D9EA95D00261BF9 /* Supporting Files */,
+			);
+			path = FHImagePickSheet;
+			sourceTree = "<group>";
+		};
+		E0E4CD7F1D9EA95D00261BF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4CD801D9EA95D00261BF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0E4CD981D9EA95D00261BF9 /* FHImagePickSheetTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4CD991D9EA95D00261BF9 /* FHImagePickSheetTests.m */,
+				E0E4CD9B1D9EA95D00261BF9 /* Info.plist */,
+			);
+			path = FHImagePickSheetTests;
+			sourceTree = "<group>";
+		};
+		E0E4CDA31D9EA95D00261BF9 /* FHImagePickSheetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4CDA41D9EA95D00261BF9 /* FHImagePickSheetUITests.m */,
+				E0E4CDA61D9EA95D00261BF9 /* Info.plist */,
+			);
+			path = FHImagePickSheetUITests;
+			sourceTree = "<group>";
+		};
+		E0E4CDB21D9EA9B800261BF9 /* FHImagePickSheet */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4CDB51D9EA9B900261BF9 /* SupportFile */,
+				E0E4CDB31D9EA9B900261BF9 /* FHImagePickSheetController.h */,
+				E0E4CDB41D9EA9B900261BF9 /* FHImagePickSheetController.m */,
+			);
+			path = FHImagePickSheet;
+			sourceTree = "<group>";
+		};
+		E0E4CDB51D9EA9B900261BF9 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4CDB61D9EA9B900261BF9 /* Image */,
+				E0E4CDBD1D9EA9B900261BF9 /* Other */,
+				E0E4CDC21D9EA9B900261BF9 /* Widgets */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		E0E4CDB61D9EA9B900261BF9 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4CDB71D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected.png */,
+				E0E4CDB81D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected@2x.png */,
+				E0E4CDB91D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected@3x.png */,
+				E0E4CDBA1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark.png */,
+				E0E4CDBB1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark@2x.png */,
+				E0E4CDBC1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		E0E4CDBD1D9EA9B900261BF9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4CDBE1D9EA9B900261BF9 /* FHImagePickSheetFlowLayout.h */,
+				E0E4CDBF1D9EA9B900261BF9 /* FHImagePickSheetFlowLayout.m */,
+				E0E4CDC01D9EA9B900261BF9 /* FHPickAnimation.h */,
+				E0E4CDC11D9EA9B900261BF9 /* FHPickAnimation.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E0E4CDC21D9EA9B900261BF9 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4CDC31D9EA9B900261BF9 /* FHImagePickCollectionViewCell.h */,
+				E0E4CDC41D9EA9B900261BF9 /* FHImagePickCollectionViewCell.m */,
+				E0E4CDC51D9EA9B900261BF9 /* FHImagePickCollectionViewCell.xib */,
+				E0E4CDC61D9EA9B900261BF9 /* FHImageTableViewCell.h */,
+				E0E4CDC71D9EA9B900261BF9 /* FHImageTableViewCell.m */,
+				E0E4CDC81D9EA9B900261BF9 /* FHPickActionCell.h */,
+				E0E4CDC91D9EA9B900261BF9 /* FHPickActionCell.m */,
+				E0E4CDCA1D9EA9B900261BF9 /* FHPreviewMarkView.h */,
+				E0E4CDCB1D9EA9B900261BF9 /* FHPreviewMarkView.m */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0E4CD7B1D9EA95D00261BF9 /* FHImagePickSheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E4CDA91D9EA95D00261BF9 /* Build configuration list for PBXNativeTarget "FHImagePickSheet" */;
+			buildPhases = (
+				E0E4CD781D9EA95D00261BF9 /* Sources */,
+				E0E4CD791D9EA95D00261BF9 /* Frameworks */,
+				E0E4CD7A1D9EA95D00261BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FHImagePickSheet;
+			productName = FHImagePickSheet;
+			productReference = E0E4CD7C1D9EA95D00261BF9 /* FHImagePickSheet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0E4CD941D9EA95D00261BF9 /* FHImagePickSheetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E4CDAC1D9EA95D00261BF9 /* Build configuration list for PBXNativeTarget "FHImagePickSheetTests" */;
+			buildPhases = (
+				E0E4CD911D9EA95D00261BF9 /* Sources */,
+				E0E4CD921D9EA95D00261BF9 /* Frameworks */,
+				E0E4CD931D9EA95D00261BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E4CD971D9EA95D00261BF9 /* PBXTargetDependency */,
+			);
+			name = FHImagePickSheetTests;
+			productName = FHImagePickSheetTests;
+			productReference = E0E4CD951D9EA95D00261BF9 /* FHImagePickSheetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0E4CD9F1D9EA95D00261BF9 /* FHImagePickSheetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E4CDAF1D9EA95D00261BF9 /* Build configuration list for PBXNativeTarget "FHImagePickSheetUITests" */;
+			buildPhases = (
+				E0E4CD9C1D9EA95D00261BF9 /* Sources */,
+				E0E4CD9D1D9EA95D00261BF9 /* Frameworks */,
+				E0E4CD9E1D9EA95D00261BF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0E4CDA21D9EA95D00261BF9 /* PBXTargetDependency */,
+			);
+			name = FHImagePickSheetUITests;
+			productName = FHImagePickSheetUITests;
+			productReference = E0E4CDA01D9EA95D00261BF9 /* FHImagePickSheetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E4CD741D9EA95D00261BF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MADAO;
+				TargetAttributes = {
+					E0E4CD7B1D9EA95D00261BF9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					E0E4CD941D9EA95D00261BF9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0E4CD7B1D9EA95D00261BF9;
+					};
+					E0E4CD9F1D9EA95D00261BF9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0E4CD7B1D9EA95D00261BF9;
+					};
+				};
+			};
+			buildConfigurationList = E0E4CD771D9EA95D00261BF9 /* Build configuration list for PBXProject "FHImagePickSheet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0E4CD731D9EA95D00261BF9;
+			productRefGroup = E0E4CD7D1D9EA95D00261BF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E4CD7B1D9EA95D00261BF9 /* FHImagePickSheet */,
+				E0E4CD941D9EA95D00261BF9 /* FHImagePickSheetTests */,
+				E0E4CD9F1D9EA95D00261BF9 /* FHImagePickSheetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0E4CD7A1D9EA95D00261BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E4CDCF1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected@3x.png in Resources */,
+				E0E4CDCD1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected.png in Resources */,
+				E0E4CDD11D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark@2x.png in Resources */,
+				E0E4CDD01D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark.png in Resources */,
+				E0E4CD8F1D9EA95D00261BF9 /* LaunchScreen.storyboard in Resources */,
+				E0E4CDCE1D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark-Selected@2x.png in Resources */,
+				E0E4CD8C1D9EA95D00261BF9 /* Assets.xcassets in Resources */,
+				E0E4CDD61D9EA9B900261BF9 /* FHImagePickCollectionViewCell.xib in Resources */,
+				E0E4CDD21D9EA9B900261BF9 /* PreviewSupplementaryView-Checkmark@3x.png in Resources */,
+				E0E4CD8A1D9EA95D00261BF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E4CD931D9EA95D00261BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E4CD9E1D9EA95D00261BF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0E4CD781D9EA95D00261BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E4CDD51D9EA9B900261BF9 /* FHImagePickCollectionViewCell.m in Sources */,
+				E0E4CDCC1D9EA9B900261BF9 /* FHImagePickSheetController.m in Sources */,
+				E0E4CDD91D9EA9B900261BF9 /* FHPreviewMarkView.m in Sources */,
+				E0E4CD871D9EA95D00261BF9 /* ViewController.m in Sources */,
+				E0E4CD841D9EA95D00261BF9 /* AppDelegate.m in Sources */,
+				E0E4CD811D9EA95D00261BF9 /* main.m in Sources */,
+				E0E4CDD71D9EA9B900261BF9 /* FHImageTableViewCell.m in Sources */,
+				E0E4CDD31D9EA9B900261BF9 /* FHImagePickSheetFlowLayout.m in Sources */,
+				E0E4CDD81D9EA9B900261BF9 /* FHPickActionCell.m in Sources */,
+				E0E4CDD41D9EA9B900261BF9 /* FHPickAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E4CD911D9EA95D00261BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E4CD9A1D9EA95D00261BF9 /* FHImagePickSheetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0E4CD9C1D9EA95D00261BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E4CDA51D9EA95D00261BF9 /* FHImagePickSheetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0E4CD971D9EA95D00261BF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E4CD7B1D9EA95D00261BF9 /* FHImagePickSheet */;
+			targetProxy = E0E4CD961D9EA95D00261BF9 /* PBXContainerItemProxy */;
+		};
+		E0E4CDA21D9EA95D00261BF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0E4CD7B1D9EA95D00261BF9 /* FHImagePickSheet */;
+			targetProxy = E0E4CDA11D9EA95D00261BF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0E4CD881D9EA95D00261BF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E4CD891D9EA95D00261BF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0E4CD8D1D9EA95D00261BF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E4CD8E1D9EA95D00261BF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0E4CDA71D9EA95D00261BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0E4CDA81D9EA95D00261BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0E4CDAA1D9EA95D00261BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FHImagePickSheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MADAO.FHImagePickSheet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0E4CDAB1D9EA95D00261BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FHImagePickSheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MADAO.FHImagePickSheet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E0E4CDAD1D9EA95D00261BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FHImagePickSheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MADAO.FHImagePickSheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FHImagePickSheet.app/FHImagePickSheet";
+			};
+			name = Debug;
+		};
+		E0E4CDAE1D9EA95D00261BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FHImagePickSheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MADAO.FHImagePickSheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FHImagePickSheet.app/FHImagePickSheet";
+			};
+			name = Release;
+		};
+		E0E4CDB01D9EA95D00261BF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FHImagePickSheetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MADAO.FHImagePickSheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FHImagePickSheet;
+			};
+			name = Debug;
+		};
+		E0E4CDB11D9EA95D00261BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FHImagePickSheetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MADAO.FHImagePickSheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FHImagePickSheet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0E4CD771D9EA95D00261BF9 /* Build configuration list for PBXProject "FHImagePickSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E4CDA71D9EA95D00261BF9 /* Debug */,
+				E0E4CDA81D9EA95D00261BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E4CDA91D9EA95D00261BF9 /* Build configuration list for PBXNativeTarget "FHImagePickSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E4CDAA1D9EA95D00261BF9 /* Debug */,
+				E0E4CDAB1D9EA95D00261BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0E4CDAC1D9EA95D00261BF9 /* Build configuration list for PBXNativeTarget "FHImagePickSheetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E4CDAD1D9EA95D00261BF9 /* Debug */,
+				E0E4CDAE1D9EA95D00261BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0E4CDAF1D9EA95D00261BF9 /* Build configuration list for PBXNativeTarget "FHImagePickSheetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E4CDB01D9EA95D00261BF9 /* Debug */,
+				E0E4CDB11D9EA95D00261BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E4CD741D9EA95D00261BF9 /* Project object */;
+}
