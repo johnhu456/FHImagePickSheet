@@ -51,7 +51,7 @@
  
  Creates the FHImagePickSheetController with a specific set of FHPickSheetAction
 
- @param action The actions used to display choice
+ @param actions The actions used to display choice
 
  @return FHImagePickSheetControlleo object
  */
@@ -60,7 +60,7 @@
 /**
  Add Actions
 
- @param action
+ @param action Add an action
  */
 - (void)addPickSheetAction:(FHPickSheetAction *)action;
 
@@ -68,7 +68,7 @@
 /**
  Get the image you selected
 
- @param handle callbck，the imageArray contains UIImage objects.
+ @param handle Callbck，the imageArray contains UIImage objects.
  */
 - (void)fetchSelectedImageWithCompleteHandle:(void(^)(NSArray *imageArray))handle;
 

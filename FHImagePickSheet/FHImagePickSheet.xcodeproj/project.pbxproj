@@ -303,6 +303,7 @@
 				TargetAttributes = {
 					E0E4CD7B1D9EA95D00261BF9 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = H3MEX3W3VV;
 						ProvisioningStyle = Automatic;
 					};
 					E0E4CD941D9EA95D00261BF9 = {
@@ -532,7 +533,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H3MEX3W3VV;
 				INFOPLIST_FILE = FHImagePickSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MADAO.FHImagePickSheet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -543,7 +546,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H3MEX3W3VV;
 				INFOPLIST_FILE = FHImagePickSheet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MADAO.FHImagePickSheet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -615,6 +620,7 @@
 				E0E4CDAB1D9EA95D00261BF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0E4CDAC1D9EA95D00261BF9 /* Build configuration list for PBXNativeTarget "FHImagePickSheetTests" */ = {
 			isa = XCConfigurationList;
@@ -623,6 +629,7 @@
 				E0E4CDAE1D9EA95D00261BF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0E4CDAF1D9EA95D00261BF9 /* Build configuration list for PBXNativeTarget "FHImagePickSheetUITests" */ = {
 			isa = XCConfigurationList;
@@ -631,6 +638,7 @@
 				E0E4CDB11D9EA95D00261BF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
